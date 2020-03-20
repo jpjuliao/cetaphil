@@ -1,0 +1,119 @@
+.nav-row {
+    display:table;
+    margin: 0 auto;
+    border-collapse:separate;
+    border-spacing: 10px 5px;
+}
+
+.nav-cell {
+    display:table-cell;
+    width: 180px;
+    height: 50px;
+    vertical-align:middle;
+    cursor:pointer;
+    border:1px solid #0076bc;
+    border-radius:5px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #0076bc;
+}
+
+.nav-cell.active {
+    background-color:#0076bc;
+    color:#fff;
+}
+
+.content {
+    display:none;
+    top: 525px;
+    position: absolute;
+    left: 80px;
+    width: 800px;
+    text-align: left; 
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+#content-full {
+    display:block;
+}
+
+.content ul{
+    list-style: disc;
+    line-height: 1.2em;
+}
+
+.content li {
+    margin-bottom: 0.3em;
+}
+
+.product {
+    display: inline-block;
+    cursor:pointer;
+}
+
+#content-consumer {
+    top: 225px;
+    left: 0;
+    width: 1024px;
+}
+
+#content-consumer section {
+    display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+    text-align:center;
+}
+
+#content-consumer section.thumb-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85%;
+}
+
+#content-consumer section p {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.consumer-copy {
+    width: 33%;
+    float: left;
+    padding: 10px 0;
+}
+
+#video3_popup {
+    z-index:9999999;
+}
+
+#baby-eczema-list > div > img {
+    width: 45px;
+}
+
+#baby-sensitive-list > div > img {
+    width: 75px;
+}
+/*Nunito*/
+.non-italic.head{
+    font-style: inherit !important;
+    margin-bottom: 10px;
+    font-size: 19px !important;
+}
+.subhead{
+    font-size: 13px;
+}
+.inline-below-image{
+    margin-top: 15px;
+}
+.inline-below-image p{
+    display: inline-block;
+    width: 140px;
+}
+.inline-below-image p:first-child{
+    padding-right: 10px;
+}
+.inline-below-image p:nth-child(2){
+    padding-right: 10px;
+}
