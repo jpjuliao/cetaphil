@@ -4,6 +4,7 @@ resources/*
 resources/images/*
 !resources/images/clinical-data-1.png
 !resources/images/clinical-data-2.png
+!resources/images/arrows.svg
 
 # Ignoring pdf files
 *.pdf
