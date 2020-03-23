@@ -11,14 +11,14 @@ function toggle_visibility(id) {
 
 function box_flip_show(el) {
     $('.flip-content-box').addClass('flip');
-    if ($(el).closest('.popup').attr('id') == 'clinical-data_popup') {
-        return;
-    }
-    $('.scroller').addClass('hidden');           
+    // if ($(el).closest('.popup').attr('id') == 'clinical-data_popup') {
+    //     return;
+    // }
+    // $('.scroller').addClass('hidden');           
 };
 function box_flip_hide() {
     $('.flip-content-box').removeClass('flip');
-    setTimeout(function(){ $('.scroller').removeClass('hidden')},200)
+    // setTimeout(function(){ $('.scroller').removeClass('hidden')},200)
 };   
 
 $(function(){   
