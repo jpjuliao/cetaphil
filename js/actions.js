@@ -16,7 +16,7 @@ function box_flip_show(el) {
     // }
     // $('.scroller').addClass('hidden');           
 };
-function box_flip_hide() {
+function box_flip_hide(el) {
     $('.flip-content-box').removeClass('flip');
     // setTimeout(function(){ $('.scroller').removeClass('hidden')},200)
 };   
